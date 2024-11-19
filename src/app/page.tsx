@@ -29,7 +29,7 @@ export default function Home() {
       <Pricing />
       <Client />
       <Blog />
-      {/* <Contactus /> */}
+      <Contactus />
     </div>
   );
 }
