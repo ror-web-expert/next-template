@@ -3,6 +3,8 @@ import Blog from "./_components/Blog";
 import Client from "./_components/Client";
 import Contactus from "./_components/Contactus";
 import Fetures from "./_components/Fetures";
+import Footdesc from "./_components/Footdesc";
+import Footerhead from "./_components/Footerhead";
 import Header from "./_components/Header";
 import Logo from "./_components/Logo";
 import Navbar from "./_components/Navbar";
@@ -30,6 +32,8 @@ export default function Home() {
       <Client />
       <Blog />
       <Contactus />
+      <Footerhead />
+      <Footdesc />
     </div>
   );
 }
