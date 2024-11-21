@@ -47,6 +47,7 @@ body {
 }
 .header h6{
   font-weight: bold;
+  font-size: x-large;
   color: gray;
 }
 .header h1{
@@ -75,6 +76,7 @@ body {
 }
 .service-heading h6{
   font-weight: bold;
+  font-size: xx-large;
   color: gray;
 }
 .service-heading h1{
@@ -96,16 +98,17 @@ body {
   color: gray;
 }
 .service-box{
-  width: 250px;
+  width: 300px;
   text-align: center;
 }
 .s-container{
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 120px;
 }
 .aboutus h6{
   font-weight: bold;
+  font-size: xx-large;
   color: gray;
 }
 .aboutus h1{
@@ -133,7 +136,7 @@ body {
 .a-container{
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 150px;
   margin-top: 120px;
   padding: 10px;
 }
@@ -158,7 +161,7 @@ body {
   font-style: inherit;
 }
 .process-container{
-  width: 180px;
+  width: 200px;
   height: 170px;
   background-color: #fff;
   text-align: center;
@@ -170,7 +173,7 @@ body {
 .p-container{
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 50px;
 }
 .fetures-img{
   width: 150px;
@@ -192,11 +195,13 @@ body {
 }
 .f-container{
   display: flex;
+  gap: 80px;
   justify-content: center;
   margin-top: 150px;
 }
 .f-header h6{
   font-weight: bold;
+  font-size: xx-large;
   color: gray;
 }
 .f-header h1{
@@ -240,7 +245,7 @@ body {
   margin-top: 70px;
   display: flex;
   justify-content: center;
-  gap: 35px;
+  gap: 150px;
 }
 .news-image{
   width: 250px;
@@ -277,7 +282,7 @@ body {
   margin-top: 30px;
 }
 .team-image img{
-  width: 250px;
+  width: 300px;
   height: 280px;
   margin-top: 25px;
   object-fit: cover;
@@ -285,14 +290,14 @@ body {
 .team-container{
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 100px;
 }
 .team-boxes{
   width: 230px;
   height: 80px;
   border: 1px solid #fff;
   background-color: #fff;
-  margin-left: 10px;
+  margin-left: 30px;
   margin-top: -50px;
   position: absolute;
   border-radius: 8px;
@@ -319,6 +324,7 @@ body {
 }
 .price-heading h6{
   font-weight: bold;
+  font-size: xx-large;
   color: gray;
 }
 .price-heading h1{
@@ -358,7 +364,7 @@ body {
   margin-bottom: 10px;
 }
 .price-desc{
-  width: 300px;
+  width: 350px;
   height: 530px;
   border: 1px solid #fff;
   background-color: #faf8f8;
@@ -410,7 +416,7 @@ body {
   margin-bottom: 10px;
 }
 .pric-desc{
-  width: 300px;
+  width: 350px;
   height: 530px;
   border: 1px solid #fff;
   background-color: rgb(105, 105, 231);
@@ -434,7 +440,7 @@ body {
 .price-container{
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
   margin-top: 50px;
 }
 .client-container{
@@ -448,6 +454,7 @@ body {
 }
 .client-head h6{
   font-weight: bold;
+  font-size: xx-large;
   color: gray;
   font-style: inherit;
 }
@@ -461,7 +468,7 @@ body {
   font-style: inherit;
 }
 .client-box{
-  width: 400px;
+  width: 500px;
   height: 220px;
   background-color: #fff;
   padding: 20px;
@@ -481,17 +488,17 @@ body {
 }
 .client-box img{
   width: 50px;
-  margin-left: 280px;
+  margin-left: 380px;
   margin-top: -50px;
 }
 .client{
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 80px;
 }
 .blogbox-counter{
-  width: 300px;
-  height: 380px;
+  width: 380px;
+  height: 450px;
   background-color: #faf8f8;
 }
 .blog-head h2{
@@ -529,6 +536,7 @@ body {
 }
 .contact-header h6{
   color: gray;
+  font-size: xx-large;
   font-weight: bold;
 }
 .contact-header h1{
@@ -605,7 +613,7 @@ body {
   color: #fff;
 }
 .foot-desc{
-  height: 480px;
+  height: 550px;
   background-color: rgb(105, 105, 231);
 }
 .logo-foot a span{
@@ -618,10 +626,10 @@ body {
   margin-top: 80px;
 }
 .foot-mail{
-  margin-top: 110px;
+  margin-top: 100px;
 }
 .foot-adress{
-  margin-top: 110px;
+  margin-top: 100px;
 }
 .foot-mail h1{
   font-weight: bold;
@@ -630,16 +638,16 @@ body {
 }
 .foot-mail h2{
   font-weight: bold;
-  color: rgb(90, 89, 89);
+  color: #b4b2b2;
 }
 .foot-adress h1{
   font-weight: bold;
   font-size: large;
-  color: rgb(90, 89, 89);
+  color: #b4b2b2;
 }
 .foot-adress h2{
   font-weight: bold;
-  color: rgb(90, 89, 89);
+  color: #b4b2b2;
 }
 .foot-1st{
   display: flex;
@@ -648,5 +656,50 @@ body {
 .foot-desc hr{
   width: 1150px;
   margin-left: 100px;
+  margin-top: 25px;
+}
+.foot-about{
+  width: 350px;
+}
+.foot-about h1{
+  font-weight: 900;
+  font-size: x-large;
+  color: #fff;
+}
+.foot-about p{
+  font-weight: bold;
+  color: #b4b2b2;
   margin-top: 30px;
+}
+.foot-links ul{
+  margin-top: 30px;
+}
+.foot-links h1{
+  font-weight: 900;
+  font-size: x-large;
+  color: #fff;
+}
+.foot-links ul li{
+  font-weight: bold;
+  color: #b4b2b2;
+  margin-bottom: 20px;
+}
+.footer-lower{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 40px;
+}
+.low-footer{
+  background-color: rgb(8, 8, 196);
+  height: 50px;
+  padding: 14px;
+}
+.low-footer h2{
+  color: #969494;
+  font-weight: bold;
+  text-align: center;
+}
+.low-footer h2 span{
+  color: #fff;
 }

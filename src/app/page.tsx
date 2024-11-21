@@ -5,6 +5,7 @@ import Contactus from "./_components/Contactus";
 import Fetures from "./_components/Fetures";
 import Footdesc from "./_components/Footdesc";
 import Footerhead from "./_components/Footerhead";
+import Footerlow from "./_components/Footerlow";
 import Header from "./_components/Header";
 import Logo from "./_components/Logo";
 import Navbar from "./_components/Navbar";
@@ -34,6 +35,7 @@ export default function Home() {
       <Contactus />
       <Footerhead />
       <Footdesc />
+      <Footerlow />
     </div>
   );
 }
