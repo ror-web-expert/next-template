@@ -12,7 +12,7 @@ const Navbar = () => {
               src="https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_1280.png"
               alt="logo"
             />
-            <span>Samar</span>
+            <span className='nav-name'>Samar</span>
           </a>
         </div>
             <ul>
