@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
+import Image from "next/image";
+import laptop from "../images/laptop.png"
 import { useState , useEffect } from "react";
 
 const Header = () => {
@@ -15,7 +17,7 @@ const Header = () => {
       setIndex((prevIndex) => (prevIndex + 1) % words.length);
     }, 1000); 
 
-    return () => clearInterval(interval); // Cleanup on unmount
+    return () => clearInterval(interval); 
   }, [index]);
 
   return (
@@ -32,12 +34,8 @@ const Header = () => {
           </p>
           <button className="btn-head">LEARN MORE </button>
         </div>
-        <div>
-          <img
-            style={{ width: 450 }}
-            src="https://media.wired.com/photos/5f63ea43470e71528f4f8876/master/w_1600,c_limit/Gear-Laptop-Monitor-159167665.jpg"
-            alt=""
-          />
+        <div className="header-image">
+          <Image src={laptop} alt="" />
         </div>
       </div>
     </div>

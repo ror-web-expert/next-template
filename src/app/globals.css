@@ -19,6 +19,18 @@ body {
   background: var(--background);
   font-family: var(--font-roboto);
 }
+.nav-header{
+    padding: 10px 0;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000;
+    width: 100%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.nav-header.scrolled{
+  background-color: rgb(179, 176, 176);
+  color: white;
+}
 .nav-header ul{
   display: flex;
   justify-content: space-around;
@@ -79,6 +91,11 @@ body {
   border-radius: 30px;
   transition-property: all;
   transition-duration: 0.3s;
+}
+.header-image img{
+  width: 450px;
+  height: 330px;
+  object-fit: cover;
 }
 .btn-head:hover{
   background-color: black;

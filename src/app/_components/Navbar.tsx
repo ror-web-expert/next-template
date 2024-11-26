@@ -1,9 +1,29 @@
 /* eslint-disable @next/next/no-img-element */
+"use client"
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
+
 
 const Navbar = () => {
+
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, );
   return (
-    <div className='nav-header'>
+    <div className={`nav-header ${isScrolled ? 'scrolled' : ''}`}>
       <div className='container flex justify-around items items-center'>
         <div>
           <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-1">
