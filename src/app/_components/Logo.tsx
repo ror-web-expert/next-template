@@ -1,32 +1,39 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Image from "next/image";
+import logo1 from "../images/logo1.webp"
+import logo2 from "../images/logo-2.webp"
+import logo3 from "../images/logo3.webp"
+import logo4 from "../images/logo4.webp"
+import logo5 from "../images/logo5.webp"
+
 function Logo() {
   return (
     <div>
         <div className='logos'>
             <div>
             <a href="">
-                <img  src="https://as2.ftcdn.net/v2/jpg/02/56/60/77/1000_F_256607704_MlVHLkv0m5xfVuj0a9LLcbsUUcJSBqgO.jpg" alt="" />
+                <Image src={logo1} alt="" />
             </a>
             </div>
             <div>
             <a href="">
-                <img  src="https://as1.ftcdn.net/v2/jpg/05/50/76/08/1000_F_550760858_0eXKNh4cKiNdSc6D14RbNIixWgTOVjWT.jpg" alt="" />
+            <Image src={logo2} alt="" />
             </a>
             </div>
             <div>
             <a href="">
-                <img  src="https://as2.ftcdn.net/v2/jpg/02/56/60/77/1000_F_256607704_MlVHLkv0m5xfVuj0a9LLcbsUUcJSBqgO.jpg" alt="" />
+            <Image src={logo3} alt="" />
             </a>
             </div>
             <div>
             <a href="">
-                <img  src="https://as1.ftcdn.net/v2/jpg/05/50/76/08/1000_F_550760858_0eXKNh4cKiNdSc6D14RbNIixWgTOVjWT.jpg" alt="" />
+            <Image src={logo4} alt="" />
             </a>
             </div>
             <div>
             <a href="">
-                <img  src="https://as2.ftcdn.net/v2/jpg/02/56/60/77/1000_F_256607704_MlVHLkv0m5xfVuj0a9LLcbsUUcJSBqgO.jpg" alt="" />
+            <Image src={logo5} alt="" />
             </a>
             </div>
         </div>

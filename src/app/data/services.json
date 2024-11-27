@@ -1,0 +1,23 @@
+[
+    {
+        "id" : 1,
+        "title" : "App Development",
+        "content" : "We create brilliant websites that are manageable, fully functional, secure, and scalable enough to help you separate yourself from the competition."
+    },
+    {
+        "id" : 2,
+        "title" : "Web Development",
+        "content" : "You get custom iOS, Android, native, cross-platform, second platform app development solutions with proper QA and support services."
+    },
+    {
+        "id" : 3,
+        "title" : "Support & Maintenance",
+        "content" : "We know the difference between success and excellence which is why we only provide professional work. To ensure credibility, we offer QA & testing as a separate service."
+    },
+    {
+            "id" : 2,
+            "heading" : "Qasim Arshad",
+            "title" : "CEO",
+            "content" : "We are overjoyed with the service and the product that NexonDev has provided in creating our website. They actually took the time to understand the business, and catered to our ever need. They kept their channels of communication open at all times, making sure we were satisfied with the final product. Thankyou again for the job well done. 10/10 would use again."
+    }
+]

@@ -1,7 +1,8 @@
-import Image from "next/image";
-import moji from "../images/emoji.webp"
+// import Client from '../data/client.json'
 
 /* eslint-disable react/no-unescaped-entities */
+import Clients from "../data/client.json";
+
 function Client() {
   return (
     <div className="client-container">
@@ -14,16 +15,18 @@ function Client() {
             placeat.
           </p>
         </div>
-        <div className="client-box">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            suscipit iusto iure soluta ex sint eveniet voluptate sequi dolorem
-            veniam aliquam aspern.
-          </p>
-          <h1>Devid</h1>
-          <h6>CEO & Founder</h6>
-          <Image src={moji} alt="" />
-        </div>
+        {
+        Clients.map((client) => {
+          return (
+            <div className="client-box" key={client.id}>
+              <h1>{client.heading}</h1>
+              <h6>{client.title}</h6>
+              <p>
+                {client.content}
+              </p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
