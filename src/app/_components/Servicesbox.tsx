@@ -1,20 +1,26 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
+import serviceimg from "../images/service.jpg";
+import services from "../data/services.json";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-function Servicesbox(props:any) {
+function Servicesbox() {
   return (
     <div className="service-box">
-      <div className="service-img">
-        <Image src={props.image} alt=""/>
-      </div>
-      <div className="service-title">
-        <h2>{props.title}</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quod
-          natus est eaque consequatur.
-        </p>
-      </div>
+      { 
+      services && services.map((service) => {
+        return (
+          <div key={service.id}>
+            <div className="service-img">
+              <Image src={serviceimg} alt="" />
+            </div>
+            <div className="service-title">  
+              <h2>{service.title}</h2>
+              <p>{service.content}</p>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }

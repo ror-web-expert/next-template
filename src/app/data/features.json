@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "title":"Idea & Analysis Gathering",
+        "content":"At NexDev, we turn your ideas into actionable insights through expert analysis, ensuring tailored, innovative software solutions."
+    },
+    {
+        "id":2,
+        "title":"Design & Developing",
+        "content":"Take advantage of UI/UX design services to gain eye-catching aesthetics for your software. Let’s design an interface that boosts customer retention."
+    },
+    {
+        "id":3,
+        "title":"Testing & Launching",
+        "content":"We know the difference between success and excellence which is why we only provide professional work. To ensure credibility, we offer QA & testing as a separate service."
+    }
+]

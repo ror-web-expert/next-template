@@ -1,21 +1,27 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from 'next/image';
+import aboutus from '../data/about.json'
+import women from "../images/woman2.png"
 
 function Aboutus() {
   return (
     <div className="a-container">
       <div className="about-img">
-        <img
-          src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_1280.png"
-          alt=""
-        />
+        <Image src={women} alt='' />
       </div>
-      <div className="aboutus">
-        <h6>ABOUT US</h6>
-        <h1>HOW WE CAN HELP YOUR BUSINESS GOAL</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur eius mollitia nihil impedit veritatis deserunt amet, reprehenderit corrupti, dolores placeat enim similique incidunt reiciendis tempora dicta. Consequatur quae numquam nesciunt!</p>
-        <h2>CEO Jhone Deo</h2>
+      {
+       aboutus && aboutus.map(about=>{
+          return(
+            <div className="aboutus" key={about.id}>
+        <h6>{about.name}</h6>
+        <h1>{about.heading}</h1>
+        <p>{about.content}</p>
+        <h2>{about.title}</h2>
         <button className="btn-head">LEARN MORE </button>
       </div>
+          )
+        })
+      }
     </div>
   );
 }

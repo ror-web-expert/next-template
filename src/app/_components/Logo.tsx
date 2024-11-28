@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 
 import Image from "next/image";
-import logo1 from "../images/logo1.webp"
+import aws from "../images/aws.webp"
 import logo2 from "../images/logo-2.webp"
-import logo3 from "../images/logo3.webp"
+import ibm from "../images/formpipe.webp"
 import logo4 from "../images/logo4.webp"
 import logo5 from "../images/logo5.webp"
 
@@ -13,7 +13,7 @@ function Logo() {
         <div className='logos'>
             <div>
             <a href="">
-                <Image src={logo1} alt="" />
+                <Image src={aws} alt="" />
             </a>
             </div>
             <div>
@@ -21,9 +21,9 @@ function Logo() {
             <Image src={logo2} alt="" />
             </a>
             </div>
-            <div>
+            <div className="ibm">
             <a href="">
-            <Image src={logo3} alt="" />
+            <Image src={ibm} alt="" />
             </a>
             </div>
             <div>

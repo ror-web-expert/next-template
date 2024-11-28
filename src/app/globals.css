@@ -20,7 +20,7 @@ body {
   font-family: var(--font-roboto);
 }
 .nav-header{
-  background-color: #fff;
+    background-color: #fff;
     padding: 10px 0;
     position: sticky; 
     top: 0; 
@@ -29,8 +29,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 .nav-header.scrolled{
-  background-color: rgb(179, 176, 176);
-  color: white;
+  background-color: rgb(206, 203, 203);
 }
 .nav-header ul{
   display: flex;
@@ -81,6 +80,7 @@ body {
 }
 .header p{
   color: gray;
+  font-size: large;
 }
 .btn-head{
   background-color: rgb(105, 105, 231);
@@ -95,7 +95,7 @@ body {
 }
 .header-image img{
   width: 450px;
-  height: 330px;
+  height: 400px;
   object-fit: cover;
 }
 .btn-head:hover{
@@ -117,6 +117,9 @@ body {
 .logos img:hover{
   width: 180px;
   margin-top: -30px;
+}
+.ibm img{
+  margin-top: -15px;
 }
 .service-heading{
   text-align: center;
@@ -142,19 +145,24 @@ body {
   letter-spacing: 1px;
   height: 40px;
   margin-bottom: 10px;
+  text-align: center;
+  width: 300px;
 }
 .service-title p{
   color: gray;
+  text-align: center;
+  width: 300px;
 }
 .service-box{
-  width: 300px;
-  text-align: center;
-}
-.s-container{
   display: flex;
   justify-content: center;
   gap: 120px;
 }
+/* .s-container{
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+} */
 .aboutus h6{
   /* font-weight: bold; */
   font-size: xx-large;
@@ -224,7 +232,12 @@ body {
   gap: 50px;
 }
 .fetures-img{
-  width: 150px;
+  width: 300px;
+}
+.feature-img img{
+  width: 500px;
+  height: 500px;
+  margin-top: 100px;
 }
 .fetures-head p{
   color: gray;
@@ -236,7 +249,7 @@ body {
 }
 .flexes{
   display: flex;
-  width: 350px;
+  width: 400px;
   gap: 10px;
   margin-top: 30px;
 }

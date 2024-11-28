@@ -17,7 +17,7 @@ function Fetures() {
         </div>
         <div className="fetures-head">
             <h1>Idea & Analysis Gathering</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, fugit.</p>
+            <p>At NexDev, we turn your ideas into actionable insights through expert analysis, ensuring tailored, innovative software solutions.</p>
         </div>
       </div>
       <div className="flexes scnd-flx">
@@ -26,7 +26,7 @@ function Fetures() {
         </div>
         <div className="fetures-head">
             <h1>Design & Developing</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, fugit.</p>
+            <p>Take advantage of UI/UX design services to gain eye-catching aesthetics for your software. Let’s design an interface that boosts customer retention.</p>
         </div>
       </div>
       <div className="flexes">
@@ -35,11 +35,11 @@ function Fetures() {
         </div>
         <div className="fetures-head">
             <h1>Testing & Launching</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, fugit.</p>
+            <p>We know the difference between success and excellence which is why we only provide professional work. To ensure credibility, we offer QA & testing as a separate service.</p>
         </div>
       </div>
       </div>
-      <div className="about-img">
+      <div className="feature-img">
         <img
           src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_1280.png"
           alt=""
