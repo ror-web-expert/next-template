@@ -62,8 +62,6 @@ body {
 }
 .btn:hover{
   background-color: black;
-  height: 60px;
-  width: 175px;
 }
 .header h6{
   /* font-weight: bold; */
@@ -100,8 +98,6 @@ body {
 }
 .btn-head:hover{
   background-color: black;
-  height: 60px;
-  width: 175px;
 }
 .logos{
   display: flex;
@@ -203,11 +199,11 @@ body {
 }
 .process-img img{
   width: 50px;
-  margin-left: 60px;
+  margin-left: 80px;
 }
 .process-heading p{
-  font-weight: 200;
-  color: gray;
+  font-weight: bold;
+  font-size: larger;
   margin-top: 20px;
 }
 .process-heading h1{
@@ -216,20 +212,24 @@ body {
   font-size: xxx-large;
   font-style: inherit;
 }
+.pro{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
 .process-container{
-  width: 200px;
-  height: 170px;
+  width: 230px;
+  height: 200px;
   background-color: #fff;
   text-align: center;
   padding: 2px;
-  margin-top: 30px;
   border: 1px solid #fff;
-  border-radius: 2px;
+  border-radius: 8px;
 }
 .p-container{
   display: flex;
   justify-content: center;
-  gap: 50px;
 }
 .fetures-img{
   width: 300px;
@@ -406,8 +406,6 @@ body {
 }
 .price-btn:hover{
   background-color: black;
-  height: 45px;
-  width: 135px;
 }
 .price-desc h1{
   font-weight: 900;
@@ -467,8 +465,6 @@ body {
 .pric-btn:hover{
   background-color: black;
   color: white;
-  height: 45px;
-  width: 135px;
 }
 .pric-desc h1{
   font-weight: 900;
@@ -583,27 +579,30 @@ body {
   gap: 80px;
 }
 .blogbox-counter{
-  width: 380px;
-  height: 450px;
+  width: 350px;
+  height: 400px;
   background-color: #faf8f8;
   cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 10px;
   transition-property: all;
   transition-duration: 0.3s;
 }
 .blogbox-counter:hover{
-  width: 410px;
-  height: 480px;
+  width: 380px;
+  height: 430px;
   margin-top: -20px;
 }
 .blog-head h2{
   font-weight: 900;
-  font-size: large;
+  font-size: x-large;
+  margin-top: 10px;
 }
 .blog-head p{
   /* font-weight: bold; */
   font-size: medium;
   color: gray;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 .blog-head{
   padding: 15px;
@@ -621,13 +620,9 @@ body {
 .blog-foot p{
   font-weight: bold;
   color: rgb(126, 124, 124);
+  font-size: large;
 }
-.blog-counter{
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 30px;
-}
+
 .contact-header h6{
   color: gray;
   font-size: xx-large;
@@ -675,8 +670,6 @@ body {
 }
 .contact-btn:hover{
   background-color: black;
-  height: 60px;
-  width: 175px;
 }
 .contact-img img{
   width: 550px;
@@ -708,8 +701,6 @@ body {
 }
 .foot-btn:hover{
   background-color: black;
-  height: 60px;
-  width: 175px;
 }
 .foot-head{
   display: flex;
