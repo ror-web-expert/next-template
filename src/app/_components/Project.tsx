@@ -12,7 +12,7 @@ function Project() {
   return (
     <div>
         <div className="service-heading">
-            <h6>PROJECTS</h6>
+            <h3>PROJECTS</h3>
             <h1>OUR PORTFOLIO</h1>
         </div>
         <div className="project-li">

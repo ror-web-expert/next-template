@@ -14,7 +14,7 @@ function Blogbox() {
                   <Image src={wordpress} alt="" />
                 </div>
                 <div className="blog-head">
-                  <h2>{blog.title}</h2>
+                  <h4>{blog.title}</h4>
                   <p>{blog.content}</p>
                 </div>
               </div>

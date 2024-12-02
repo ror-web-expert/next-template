@@ -15,7 +15,7 @@ function Servicesbox() {
               <Image src={serviceimg} alt="" />
             </div>
             <div className="service-title">  
-              <h2>{service.title}</h2>
+              <h4>{service.title}</h4>
               <p>{service.content}</p>
             </div>
           </div>

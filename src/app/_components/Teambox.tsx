@@ -8,7 +8,7 @@ function Teambox(props:any) {
         <Image src={props.image} alt="" />
       </div>
       <div className="team-boxes">
-        <h2>{props.heading}</h2>
+        <h3>{props.heading}</h3>
         <h6>{props.title}</h6>
       </div>
     </div>

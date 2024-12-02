@@ -16,7 +16,7 @@ function Processbox() {
                 <Image src={emoji} alt="" />
               </div>
               <div className="process-heading">
-                <p>{project.title}</p>
+                <h4>{project.title}</h4>
                 <h1>{project.content}</h1>
               </div>
             </div>

@@ -28,9 +28,9 @@ const Header = () => {
 
   return (
     <div>
-      <div className="container flex justify-around items items-center mt-14 py-2 px-10">
+      <div className="container flex justify-around items items-center mt-14 py-2 px-10 gap-10">
         <div className="header" style={{ width: 600 }}>
-          <h6>WE CREATE IDEAS</h6>
+          <h3>WE CREATE IDEAS</h3>
           <h1>
             HOW CAN WE HELP YOU IN{" "}
             <span className="dynamic-word">{currentWord}</span>

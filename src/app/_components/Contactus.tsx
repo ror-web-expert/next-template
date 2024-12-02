@@ -6,7 +6,7 @@ function Contactus() {
     <div className="contact-container">
       <div className="contact-left">
         <div className="contact-header">
-          <h6>CONTACT US</h6>
+          <h3>CONTACT US</h3>
           <h1>GET IN TOUCH</h1>
         </div>
         <div className="contact-input">

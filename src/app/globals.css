@@ -31,47 +31,55 @@ body {
 .nav-header.scrolled{
   background-color: rgb(206, 203, 203);
 }
-.nav-header ul{
+.nav-ul ul{
   display: flex;
   justify-content: space-around;
+  margin-top: 10px;
 }
-.nav-header ul li{
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+.nav-ul a{
+  text-decoration: none;
+  color: black;
+}
+.nav-ul ul li{
+  padding: 12px;
 	height:40px;
 	line-height: 25px;
 	margin: 3px;
-	font-size: 18px;
-	font-weight: 520;
+	font-size: larger;
+	font-weight: 500;
 }
 .nav-header a span{
   color: rgb(10, 10, 139);
   font-weight: 800;
   margin-top: 35px;
 }
-.btn{
+.nav-header a{
+  text-decoration: none;
+}
+.btn button{
   background-color: rgb(105, 105, 231);
   color: white;
   height: 55px;
   width: 170px;
   padding: 2px;
-  margin-top: -30px;
+  margin-top: 10px;
+  margin-right: -50px;
   border-radius: 30px;
   transition-property: all;
   transition-duration: 0.3s;
 }
-.btn:hover{
+.btn button:hover{
   background-color: black;
 }
-.header h6{
+.header h3{
   /* font-weight: bold; */
-  font-size: x-large;
+  /* font-size: x-large; */
   color: gray;
 }
 .header h1{
   font-weight: 900;
-  font-size: xxx-large;
-  height: 150px;
+  /* font-size: xxx-large; */
+  height: 100px;
 }
 .dynamic-word{
   color: rgb(250, 183, 60);
@@ -86,7 +94,7 @@ body {
   height: 55px;
   width: 170px;
   padding: 2px;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 30px;
   transition-property: all;
   transition-duration: 0.3s;
@@ -121,24 +129,24 @@ body {
   text-align: center;
   margin-top: 80px;
 }
-.service-heading h6{
+.service-heading h3{
   /* font-weight: bold; */
-  font-size: xx-large;
+  /* font-size: xx-large; */
   color: gray;
 }
 .service-heading h1{
   font-weight: 900;
-  font-size: xxx-large;
+  /* font-size: xxx-large; */
   height: 80px;
 }
 .service-img{
   width: 220px;
   margin-left: 40px;
 }
-.service-title h2{
-  font-weight: 900;
-  font-size: x-large;
-  letter-spacing: 1px;
+.service-title h4{
+  font-weight: 700;
+  /* font-size: x-large; */
+  /* letter-spacing: 1px; */
   height: 40px;
   margin-bottom: 10px;
   text-align: center;
@@ -159,24 +167,25 @@ body {
   justify-content: center;
   gap: 120px;
 } */
-.aboutus h6{
+.aboutus h4{
   /* font-weight: bold; */
-  font-size: xx-large;
+  /* font-size: xx-large; */
   color: gray;
 }
 .aboutus h1{
   font-weight: 900;
-  font-size: xxx-large;
-  letter-spacing: 1px;
+  /* font-size: xxx-large; */
+  letter-spacing: 3px;
   /* height: 80px; */
 }
 .aboutus p{
   color: gray;
+  font-size: larger;
+  margin-top: 20px;
 }
-.aboutus h2{
+.aboutus h5{
   font-weight: 900;
   letter-spacing: 1px;
-  font-style: inherit;
   margin-top: 10px;
 }
 .about-img img{
@@ -201,15 +210,15 @@ body {
   width: 50px;
   margin-left: 80px;
 }
-.process-heading p{
-  font-weight: bold;
-  font-size: larger;
+.process-heading h4{
+  font-weight: 700;
+  /* font-size: larger; */
   margin-top: 20px;
 }
 .process-heading h1{
   color: rgb(105, 105, 231);
-  font-weight: 800;
-  font-size: xxx-large;
+  font-weight: 900;
+  /* font-size: xxx-large; */
   font-style: inherit;
 }
 .pro{
@@ -237,21 +246,23 @@ body {
 .feature-img img{
   width: 500px;
   height: 500px;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .fetures-head p{
   color: gray;
 }
-.fetures-head h1{
-  font-weight: 900;
-  letter-spacing: 1px;
-  font-style: inherit;
+.fetures-head h5{
+  font-weight: 700;
+  /* letter-spacing: 1px; */
+}
+.flox{
+  margin-top: 70px;
 }
 .flexes{
   display: flex;
-  width: 400px;
+  width: 450px;
   gap: 10px;
-  margin-top: 30px;
+  /* margin-top: 40px; */
 }
 .f-container{
   display: flex;
@@ -259,14 +270,14 @@ body {
   justify-content: center;
   margin-top: 150px;
 }
-.f-header h6{
+.f-header h4{
   /* font-weight: bold; */
-  font-size: xx-large;
+  /* font-size: xx-large; */
   color: gray;
 }
 .f-header h1{
   font-weight: 900;
-  font-size: xxx-large;
+  /* font-size: xxx-large; */
   letter-spacing: 1px;
 }
 .scnd-flx{
@@ -275,17 +286,23 @@ body {
 .project-li ul{
   display: flex;
   justify-content: center;
-  gap: 50px;
-  /* font-weight: bold; */
+  gap: 40px;
+  font-weight: bold;
+}
+.project-li a{
+  text-decoration: none;
   color: gray;
 }
+
 .bold-li{
   border: 1px solid rgb(105, 105, 231);
   background-color: rgb(105, 105, 231);
-  color: #fff;
   border-radius: 15px;
   text-align: center;
   width: 50px;
+}
+.bold-li a{
+  color: #fff;
 }
 .project-img img{
   width: 300px;
@@ -312,21 +329,19 @@ body {
   object-fit: contain;
   margin-top: 30px;
 }
-.news-head h6{
+.news-head h3{
   /* font-weight: bold; */
   color: #fff;
-  font-family: inherit;
 }
-.news-head h1{
+.news-head h2{
   font-weight: 900;
-  font-size: xx-large;
+  /* font-size: xx-large; */
   color: #fff;
-  font-family: inherit;
   margin-top: 5px;
 }
 .news-head p{
   color: #fff;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .news-head input{
   border: 1px solid #fff;
@@ -334,7 +349,7 @@ body {
   height: 40px;
   border-radius: 4px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .news-head{
   width: 600px;
@@ -363,14 +378,13 @@ body {
   text-align: center;
   padding: 10px;
 }
-.team-boxes h2{
+.team-boxes h3{
   font-weight: 900;
-  font-size: x-large;
+  /* font-size: x-large; */
 }
 .team-boxes h6{
-  /* font-weight: bold; */
-  font-size: small;
-  font-family: sans-serif;
+  font-weight: bold;
+  /* font-size: small; */
   color: gray;
 }
 .team{
@@ -381,14 +395,14 @@ body {
   text-align: center;
   margin-top: 100px;
 }
-.price-heading h6{
+.price-heading h3{
   /* font-weight: bold; */
-  font-size: xx-large;
+  /* font-size: xx-large; */
   color: gray;
 }
 .price-heading h1{
   font-weight: 900;
-  font-size: xxx-large;
+  /* font-size: xxx-large; */
   height: 80px;
 }
 .price-btn{
@@ -407,20 +421,20 @@ body {
 .price-btn:hover{
   background-color: black;
 }
-.price-desc h1{
+.price-desc h2{
   font-weight: 900;
-  font-size: xx-large;
-  font-family: inherit;
+  /* font-size: xx-large; */
+  /* font-family: inherit; */
   margin-bottom: 10px;
 }
-.price-desc h2 span{
+.price-desc h4 span{
   color: rgb(105, 105, 231);
   font-weight: 900;
-  font-size: xx-large;
+  /* font-size: xx-large; */
 }
-.price-desc h2{
+.price-desc h4{
   font-weight: bold;
-  font-size: small;
+  /* font-size: small; */
   margin-bottom: 10px;
 }
 .price-desc p{
@@ -466,20 +480,20 @@ body {
   background-color: black;
   color: white;
 }
-.pric-desc h1{
+.pric-desc h2{
   font-weight: 900;
-  font-size: xx-large;
-  font-family: inherit;
+  /* font-size: xx-large;
+  font-family: inherit; */
   margin-bottom: 10px;
 }
-.pric-desc h2 span{
+.pric-desc h4 span{
   color: white;
   font-weight: 900;
-  font-size: xx-large;
+  /* font-size: xx-large; */
 }
-.pric-desc h2{
+.pric-desc h4{
   font-weight: bold;
-  font-size: small;
+  /* font-size: small; */
   margin-bottom: 10px;
 }
 .pric-desc p{
@@ -524,20 +538,19 @@ body {
   width: 450px;
   margin-top: 110px;
 }
-.client-head h6{
+.client-head h3{
   /* font-weight: bold; */
-  font-size: xx-large;
+  /* font-size: xx-large; */
   color: gray;
-  font-style: inherit;
+  /* font-style: inherit; */
 }
 .client-head h1{
   font-weight: 900;
-  font-size: xxx-large;
+  /* font-size: xxx-large; */
 }
 .client-head p{
   /* font-weight: bold; */
   color: gray;
-  font-style: inherit;
 }
 .client-box{
   width: 500px;
@@ -559,9 +572,9 @@ body {
   color: gray;
   margin-top:10px;
 }
-.client-box h1{
+.client-box h3{
   font-weight: 900;
-  font-size: larger;
+  /* font-size: larger; */
   margin-top: 10px;
 }
 .client-box h6{
@@ -593,9 +606,9 @@ body {
   height: 430px;
   margin-top: -20px;
 }
-.blog-head h2{
-  font-weight: 900;
-  font-size: x-large;
+.blog-head h4{
+  font-weight: 700;
+  /* font-size: x-large; */
   margin-top: 10px;
 }
 .blog-head p{
@@ -623,15 +636,15 @@ body {
   font-size: large;
 }
 
-.contact-header h6{
+.contact-header h3{
   color: gray;
-  font-size: xx-large;
+  /* font-size: xx-large; */
   /* font-weight: bold; */
 }
 .contact-header h1{
   font-weight: 900;
-  font-size: xxx-large;
-  letter-spacing: 1px;
+  /* font-size: xxx-large; */
+  /* letter-spacing: 1px; */
 }
 .contact-header{
   margin-top: 100px;
@@ -709,8 +722,8 @@ body {
 }
 .foot-head h1{
   font-weight: 900;
-  font-size: xx-large;
-  font-style: inherit;
+  /* font-size: xx-large; */
+  /* font-style: inherit; */
   color: #fff;
 }
 .foot-desc{
@@ -723,6 +736,9 @@ body {
   font-size: larger;
   margin-top: 30px;
 }
+.logo-foot a{
+  text-decoration: none;
+}
 .logo-foot{
   margin-top: 80px;
 }
@@ -732,21 +748,21 @@ body {
 .foot-adress{
   margin-top: 100px;
 }
-.foot-mail h1{
+.foot-mail h4{
   font-weight: bold;
-  font-size: larger;
+  /* font-size: larger; */
   color: #fff;
 }
-.foot-mail h2{
+.foot-mail h5{
   /* font-weight: bold; */
   color: #b4b2b2;
 }
-.foot-adress h1{
-  /* font-weight: bold; */
-  font-size: large;
+.foot-adress h4{
+  font-weight: bold;
+  /* font-size: large; */
   color: #b4b2b2;
 }
-.foot-adress h2{
+.foot-adress h5{
   /* font-weight: bold; */
   color: #b4b2b2;
 }
@@ -762,32 +778,37 @@ body {
 .foot-about{
   width: 350px;
 }
-.foot-about h1{
+.foot-about h2{
   font-weight: 900;
-  font-size: x-large;
+  /* font-size: x-large; */
   color: #fff;
 }
 .foot-about p{
   /* font-weight: bold; */
-  color: #b4b2b2;
+  color: #cecbcb;
+  font-size: large;
   margin-top: 30px;
 }
 .foot-links ul{
   margin-top: 30px;
 }
-.foot-links h1{
+.foot-links ul a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #b8b4b4;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.foot-links h3{
   font-weight: 900;
-  font-size: x-large;
+  /* font-size: x-large; */
   color: #fff;
 }
 .foot-links ul li{
   /* font-weight: bold; */
-  color: #b4b2b2;
   margin-bottom: 20px;
-  transition-property: all;
-  transition-duration: 0.3s;
 }
-.foot-links ul li:hover{
+.foot-links ul a:hover{
   color: black;
   font-weight: bold;
   font-size: large;
@@ -803,10 +824,10 @@ body {
   height: 50px;
   padding: 14px;
 }
-.low-footer h2{
+.low-footer h6{
   color: #969494;
   text-align: center;
 }
-.low-footer h2 span{
+.low-footer h6 span{
   color: #fff;
 }

@@ -8,11 +8,11 @@ function Newsletter() {
         <Image src={network} alt="" />
       </div>
       <div className="news-head">
-        <h6>NEWSLETTER</h6>
-        <h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
+        <h3>NEWSLETTER</h3>
+        <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, possimus!
-          Repellat, distinctio repudiandae!
+          Stay ahead with the latest updates, insights, and innovations from our
+          team. Subscribe to our newsletter and never miss out!
         </p>
         <input type="text" placeholder="Email Adress" />
       </div>

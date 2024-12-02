@@ -8,7 +8,7 @@ function Client() {
     <div className="client-container">
       <div className="client">
         <div className="client-head">
-          <h6>TESTMONIAL</h6>
+          <h3>TESTMONIAL</h3>
           <h1>WHAT OUR CLIENTS SAY'S</h1>
           <p>
             Discover how our solutions have helped our clients achieve success
@@ -19,7 +19,7 @@ function Client() {
           Clients.map((client) => {
             return (
               <div className="client-box" key={client.id}>
-                <h1>{client.name}</h1>
+                <h3>{client.name}</h3>
                 <h6>{client.title}</h6>
                 <p>{client.content}</p>
               </div>

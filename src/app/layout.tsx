@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Roboto } from "next/font/google"
 import "./globals.css";
+import 'bootstrap/dist/css/bootstrap.css'
 
 const roboto_init = Roboto({
   subsets : ['latin'] ,

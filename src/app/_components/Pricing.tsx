@@ -2,15 +2,15 @@ function Pricing() {
   return (
     <div>
       <div className="price-heading">
-        <h6>PRICING</h6>
+        <h3>PRICING</h3>
         <h1>CHOOSE PLAN</h1>
       </div>
       <div className="price-container">
         <div className="price-desc">
-          <h1>Basic Plan</h1>
-          <h2>
+          <h2>Basic Plan</h2>
+          <h4>
             <span>$49</span>/Month
-          </h2>
+          </h4>
           <p>Lorem ipsum dolor sit amet consectetur.</p>
           <hr />
           <ul>
@@ -24,10 +24,10 @@ function Pricing() {
           <button className="price-btn">START NOW</button>
         </div>
         <div className="pric-desc">
-          <h1>Standard Plan</h1>
-          <h2>
+          <h2>Standard Plan</h2>
+          <h4>
             <span>$199</span>/Month
-          </h2>
+          </h4>
           <p>Lorem ipsum dolor sit amet consectetur.</p>
           <hr />
           <ul>
@@ -41,10 +41,10 @@ function Pricing() {
           <button className="pric-btn">START NOW</button>
         </div>
         <div className="price-desc">
-          <h1>Premium Plan</h1>
-          <h2>
+          <h2>Premium Plan</h2>
+          <h4>
             <span>$149</span>/Month
-          </h2>
+          </h4>
           <p>Lorem ipsum dolor sit amet consectetur.</p>
           <hr />
           <ul>

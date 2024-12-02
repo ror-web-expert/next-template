@@ -4,7 +4,7 @@ function Blog() {
   return (
     <div>
       <div className="price-heading">
-        <h6>BLOG</h6>
+        <h3>BLOG</h3>
         <h1>LATEST BLOG & NEWS</h1>
       </div>
       <div>

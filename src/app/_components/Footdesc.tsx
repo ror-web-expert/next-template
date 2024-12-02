@@ -16,26 +16,28 @@ function Footdesc() {
           </a>
         </div>
         <div className="foot-mail">
-          <h1>+91 987-654-3210</h1>
-          <h2>info@example.com</h2>
+          <h4>+91 987-654-3210</h4>
+          <h5>info@example.com</h5>
         </div>
         <div className="foot-adress">
-          <h1>1247/Plot No. 39, 15th Phase, Colony.</h1>
-          <h2>Kkatpally, Hyderabad</h2>
+          <h4>1247/Plot No. 39, 15th Phase, Colony.</h4>
+          <h5>Kkatpally, Hyderabad</h5>
         </div>
       </div>
       <hr />
 
       <div className="footer-lower">
         <div className="foot-about">
-          <h1>ABOUT US</h1>
+          <h2>ABOUT US</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-            id soluta illum eaque in quaerat saepe deleniti earum, aperiam ex!
+            We are a forward-thinking software company dedicated to delivering
+            innovative solutions that drive success. With a passion for
+            technology and a focus on excellence, we empower businesses to
+            achieve their goals
           </p>
         </div>
         <div className="foot-links">
-          <h1>OUR LINKS</h1>
+          <h3>OUR LINKS</h3>
           <ul>
             <li>
               <Link href="/">Home</Link>
@@ -55,7 +57,7 @@ function Footdesc() {
           </ul>
         </div>
         <div className="foot-links">
-          <h1>OUR SERVICES</h1>
+          <h3>OUR SERVICES</h3>
           <ul>
             <li>
               <Link href="/">Strategy & Research</Link>
@@ -75,7 +77,7 @@ function Footdesc() {
           </ul>
         </div>
         <div className="foot-links">
-          <h1>OTHER LINKS</h1>
+          <h3>OTHER LINKS</h3>
           <ul>
             <li>
               <Link href="/">FAQ</Link>
@@ -95,7 +97,6 @@ function Footdesc() {
           </ul>
         </div>
       </div>
-
     </div>
   );
 }

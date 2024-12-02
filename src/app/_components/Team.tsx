@@ -7,7 +7,7 @@ function Team() {
   return (
     <div className="team">
         <div className="service-heading">
-            <h6>TEAM</h6>
+            <h3>TEAM</h3>
             <h1>OUR BEST EXPERTISE</h1>
         </div>
         <div className="team-container">

@@ -5,7 +5,7 @@ function Services() {
   return (
     <div>
         <div className="service-heading">
-            <h6>SERVICES</h6>
+            <h3>SERVICES</h3>
             <h1>PROVIDE AWESOME SERVICE</h1>
         </div>
         <div >
