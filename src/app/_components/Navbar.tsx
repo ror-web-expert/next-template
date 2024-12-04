@@ -34,29 +34,29 @@ const Navbar = () => {
           </a>
         </div>
         <div className="nav-ul">
-        <ul>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/">Pages</Link>
-          </li>
-          <li>
-            <Link href="/">Services</Link>
-          </li>
-          <li>
-            <Link href="/">Post Layout</Link>
-          </li>
-          <li>
-            <Link href="/">Blog</Link>
-          </li>
-          <li>
-            <Link href="/">Contact Us</Link>
-          </li>
-        </ul>
+          <ul>
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <Link href="/">Pages</Link>
+            </li>
+            <li>
+              <Link href="/">Services</Link>
+            </li>
+            <li>
+              <Link href="/">Post Layout</Link>
+            </li>
+            <li>
+              <Link href="/">Blog</Link>
+            </li>
+            <li>
+              <Link href="/">Contact Us</Link>
+            </li>
+          </ul>
         </div>
-        <div className="btn">
-        <button>GET A QUOTE </button>
+        <div className="nav-btn">
+          <button>GET A QUOTE </button>
         </div>
       </div>
     </div>

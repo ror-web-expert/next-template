@@ -29,7 +29,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 .nav-header.scrolled{
-  background-color: rgb(206, 203, 203);
+  background-color: rgb(248, 189, 79);
 }
 .nav-ul ul{
   display: flex;
@@ -43,42 +43,35 @@ body {
 .nav-ul ul li{
   padding: 12px;
 	height:40px;
-	line-height: 25px;
 	margin: 3px;
 	font-size: larger;
 	font-weight: 500;
 }
 .nav-header a span{
-  color: rgb(10, 10, 139);
+  color: rgb(105, 105, 231);
   font-weight: 800;
   margin-top: 35px;
 }
 .nav-header a{
   text-decoration: none;
 }
-.btn button{
+.nav-btn{
   background-color: rgb(105, 105, 231);
   color: white;
-  height: 55px;
-  width: 170px;
-  padding: 2px;
+  padding: 15px 25px;
   margin-top: 10px;
-  margin-right: -50px;
   border-radius: 30px;
   transition-property: all;
   transition-duration: 0.3s;
 }
-.btn button:hover{
+.nav-btn:hover{
   background-color: black;
 }
 .header h3{
-  /* font-weight: bold; */
-  /* font-size: x-large; */
   color: gray;
 }
 .header h1{
   font-weight: 900;
-  /* font-size: xxx-large; */
   height: 100px;
 }
 .dynamic-word{
@@ -130,13 +123,10 @@ body {
   margin-top: 80px;
 }
 .service-heading h3{
-  /* font-weight: bold; */
-  /* font-size: xx-large; */
   color: gray;
 }
 .service-heading h1{
   font-weight: 900;
-  /* font-size: xxx-large; */
   height: 80px;
 }
 .service-img{
@@ -145,8 +135,6 @@ body {
 }
 .service-title h4{
   font-weight: 700;
-  /* font-size: x-large; */
-  /* letter-spacing: 1px; */
   height: 40px;
   margin-bottom: 10px;
   text-align: center;
@@ -162,21 +150,12 @@ body {
   justify-content: center;
   gap: 120px;
 }
-/* .s-container{
-  display: flex;
-  justify-content: center;
-  gap: 120px;
-} */
 .aboutus h4{
-  /* font-weight: bold; */
-  /* font-size: xx-large; */
   color: gray;
 }
 .aboutus h1{
   font-weight: 900;
-  /* font-size: xxx-large; */
   letter-spacing: 3px;
-  /* height: 80px; */
 }
 .aboutus p{
   color: gray;
@@ -210,15 +189,16 @@ body {
   width: 50px;
   margin-left: 80px;
 }
+.process-heading{
+  margin-top: 50px;
+}
 .process-heading h4{
   font-weight: 700;
-  /* font-size: larger; */
   margin-top: 20px;
 }
 .process-heading h1{
   color: rgb(105, 105, 231);
   font-weight: 900;
-  /* font-size: xxx-large; */
   font-style: inherit;
 }
 .pro{
@@ -229,7 +209,7 @@ body {
 }
 .process-container{
   width: 230px;
-  height: 200px;
+  height: 180px;
   background-color: #fff;
   text-align: center;
   padding: 2px;
@@ -253,7 +233,6 @@ body {
 }
 .fetures-head h5{
   font-weight: 700;
-  /* letter-spacing: 1px; */
 }
 .flox{
   margin-top: 70px;
@@ -262,7 +241,6 @@ body {
   display: flex;
   width: 450px;
   gap: 10px;
-  /* margin-top: 40px; */
 }
 .f-container{
   display: flex;
@@ -271,13 +249,10 @@ body {
   margin-top: 150px;
 }
 .f-header h4{
-  /* font-weight: bold; */
-  /* font-size: xx-large; */
   color: gray;
 }
 .f-header h1{
   font-weight: 900;
-  /* font-size: xxx-large; */
   letter-spacing: 1px;
 }
 .scnd-flx{
@@ -330,12 +305,10 @@ body {
   margin-top: 30px;
 }
 .news-head h3{
-  /* font-weight: bold; */
   color: #fff;
 }
 .news-head h2{
   font-weight: 900;
-  /* font-size: xx-large; */
   color: #fff;
   margin-top: 5px;
 }
@@ -380,11 +353,9 @@ body {
 }
 .team-boxes h3{
   font-weight: 900;
-  /* font-size: x-large; */
 }
 .team-boxes h6{
   font-weight: bold;
-  /* font-size: small; */
   color: gray;
 }
 .team{
@@ -396,138 +367,11 @@ body {
   margin-top: 100px;
 }
 .price-heading h3{
-  /* font-weight: bold; */
-  /* font-size: xx-large; */
   color: gray;
 }
 .price-heading h1{
   font-weight: 900;
-  /* font-size: xxx-large; */
   height: 80px;
-}
-.price-btn{
-  background-color: rgb(105, 105, 231);
-  border: 1px solid rgb(105, 105, 231);
-  border-radius: 6px;
-  color: white;
-  height: 40px;
-  width: 130px;
-  padding: 5px;
-  margin-top: 10px;
-  border-radius: 30px;
-  transition-property: all;
-  transition-duration: 0.3s;
-}
-.price-btn:hover{
-  background-color: black;
-}
-.price-desc h2{
-  font-weight: 900;
-  /* font-size: xx-large; */
-  /* font-family: inherit; */
-  margin-bottom: 10px;
-}
-.price-desc h4 span{
-  color: rgb(105, 105, 231);
-  font-weight: 900;
-  /* font-size: xx-large; */
-}
-.price-desc h4{
-  font-weight: bold;
-  /* font-size: small; */
-  margin-bottom: 10px;
-}
-.price-desc p{
-  color: gray;
-  /* font-weight: bold; */
-  margin-bottom: 10px;
-}
-.price-desc{
-  width: 350px;
-  height: 530px;
-  border: 1px solid #fff;
-  background-color: #faf8f8;
-  text-align: center;
-  padding: 20px;
-}
-.price-desc hr{
-  margin-bottom: 10px;
-  width: 200px;
-  margin-left: 30px;
-}
-.price-desc ul li{
-  color: rgb(100, 99, 99);
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: left;
-  margin-left: 30px;
-}
-
-.pric-btn{
-  background-color: white;
-  border: 1px solid #fff;
-  border-radius: 6px;
-  color: rgb(105, 105, 231);
-  height: 40px;
-  width: 130px;
-  padding: 5px;
-  margin-top: 10px;
-  border-radius: 30px;
-  transition-property: all;
-  transition-duration: 0.3s;
-}
-.pric-btn:hover{
-  background-color: black;
-  color: white;
-}
-.pric-desc h2{
-  font-weight: 900;
-  /* font-size: xx-large;
-  font-family: inherit; */
-  margin-bottom: 10px;
-}
-.pric-desc h4 span{
-  color: white;
-  font-weight: 900;
-  /* font-size: xx-large; */
-}
-.pric-desc h4{
-  font-weight: bold;
-  /* font-size: small; */
-  margin-bottom: 10px;
-}
-.pric-desc p{
-  color: white;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.pric-desc{
-  width: 350px;
-  height: 530px;
-  border: 1px solid #fff;
-  background-color: rgb(105, 105, 231);
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: -20px;
-}
-.pric-desc hr{
-  margin-bottom: 10px;
-  width: 200px;
-  margin-left: 30px;
-}
-.pric-desc ul li{
-  color: white;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: left;
-  margin-left: 30px;
-}
-.price-container{
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 50px;
 }
 .client-container{
   background-color: rgb(243, 241, 241);
@@ -539,17 +383,12 @@ body {
   margin-top: 110px;
 }
 .client-head h3{
-  /* font-weight: bold; */
-  /* font-size: xx-large; */
   color: gray;
-  /* font-style: inherit; */
 }
 .client-head h1{
   font-weight: 900;
-  /* font-size: xxx-large; */
 }
 .client-head p{
-  /* font-weight: bold; */
   color: gray;
 }
 .client-box{
@@ -567,14 +406,12 @@ body {
   height: 230px;
 }
 .client-box p{
-  /* font-weight: bold; */
   text-align: left;
   color: gray;
   margin-top:10px;
 }
 .client-box h3{
   font-weight: 900;
-  /* font-size: larger; */
   margin-top: 10px;
 }
 .client-box h6{
@@ -608,11 +445,9 @@ body {
 }
 .blog-head h4{
   font-weight: 700;
-  /* font-size: x-large; */
   margin-top: 10px;
 }
 .blog-head p{
-  /* font-weight: bold; */
   font-size: medium;
   color: gray;
   margin-top: 15px;
@@ -638,13 +473,9 @@ body {
 
 .contact-header h3{
   color: gray;
-  /* font-size: xx-large; */
-  /* font-weight: bold; */
 }
 .contact-header h1{
   font-weight: 900;
-  /* font-size: xxx-large; */
-  /* letter-spacing: 1px; */
 }
 .contact-header{
   margin-top: 100px;
@@ -681,12 +512,12 @@ body {
   transition-property: all;
   transition-duration: 0.3s;
 }
-.contact-btn:hover{
+.contact-btn:hover{ 
   background-color: black;
 }
 .contact-img img{
   width: 550px;
-  height: 500px;
+  object-fit: contain;
   margin-top: 180px;
 }
 .contact-container{
@@ -722,8 +553,6 @@ body {
 }
 .foot-head h1{
   font-weight: 900;
-  /* font-size: xx-large; */
-  /* font-style: inherit; */
   color: #fff;
 }
 .foot-desc{
@@ -750,20 +579,16 @@ body {
 }
 .foot-mail h4{
   font-weight: bold;
-  /* font-size: larger; */
   color: #fff;
 }
 .foot-mail h5{
-  /* font-weight: bold; */
   color: #b4b2b2;
 }
 .foot-adress h4{
   font-weight: bold;
-  /* font-size: large; */
   color: #b4b2b2;
 }
 .foot-adress h5{
-  /* font-weight: bold; */
   color: #b4b2b2;
 }
 .foot-1st{
@@ -780,11 +605,9 @@ body {
 }
 .foot-about h2{
   font-weight: 900;
-  /* font-size: x-large; */
   color: #fff;
 }
 .foot-about p{
-  /* font-weight: bold; */
   color: #cecbcb;
   font-size: large;
   margin-top: 30px;
@@ -801,11 +624,9 @@ body {
 }
 .foot-links h3{
   font-weight: 900;
-  /* font-size: x-large; */
   color: #fff;
 }
 .foot-links ul li{
-  /* font-weight: bold; */
   margin-bottom: 20px;
 }
 .foot-links ul a:hover{
@@ -830,4 +651,52 @@ body {
 }
 .low-footer h6 span{
   color: #fff;
+}
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+.pricing-card h4 span{
+font-weight: 900;
+}
+.pricing-card {
+  width: 350px;
+  height: 500px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.pricing-card ul li{
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.pricing-card h2 {
+  margin-top: 0;
+  font-weight: 900;
+}
+.pricing-card h4{
+    font-weight: bold;
+}
+.pricing-card button {
+  padding: 10px 20px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+}
+.pricing-card.active {
+  background-color: #6c63ff;
+  color: white;
+}
+.pricing-card.active button {
+  background-color: white;
+  color: #6c63ff;
 }
