@@ -55,8 +55,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="nav-btn">
-          <button>GET A QUOTE </button>
+        <div>
+          <button className="nav-btn">GET A QUOTE </button>
         </div>
       </div>
     </div>

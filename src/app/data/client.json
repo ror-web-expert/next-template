@@ -1,8 +1,14 @@
 [
-    {
-        "id" : 1,
-        "name" : "Haassan Tariq",
-        "title" : "GMIT",
-        "content" : "Although selected for the lower price on a detailed specification of integrated mobile application, NexonDev proved to be a bridge for getting our problem solved with achieving high standard of quality and meeting the timelines."
-    }
+  {
+    "id": 1,
+    "name": "Haassan Tariq",
+    "title": "GMIT",
+    "content": "Although selected for the lower price on a detailed specification of integrated mobile application, NexonDev proved to be a bridge for getting our problem solved with achieving high standard of quality and meeting the timelines."
+  },
+  {
+    "id": 2,
+    "name": "Qasim Arshad",
+    "title": "CEO",
+    "content": "We are overjoyed with the service and the product that NexonDev has provided in creating our website. They actually took the time to understand the business, and catered to our ever need. They kept their channels of communication open at all times, making sure we were satisfied with the final product. Thankyou again for the job well done. 10/10 would use again."
+  }
 ]
