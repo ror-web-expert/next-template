@@ -1,11 +1,11 @@
 import Image from "next/image";
-import network from "../images/network.jpg";
+// import network from "../images/network.jpg";
 
 function Newsletter() {
   return (
     <div className="newsletter">
       <div className="news-image">
-        <Image src={network} alt="" />
+        <Image src="/images/network.jpg" alt="" width={250} height={200}/>
       </div>
       <div className="news-head">
         <h3>NEWSLETTER</h3>

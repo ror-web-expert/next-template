@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "image":"/images/service1.webp",
+    "imagePath":"/images/service3.webp", 
     "title": "Web Development",
     "content": "We create brilliant websites that are manageable, fully functional, secure, and scalable enough to help you separate yourself from the competition."
   },
   {
     "id": 2,
-    "image":"/images/fetures.jpg",
+    "imagePath":"/images/service1.webp",
     "title": "App Development",
     "content": "You get custom iOS, Android, native, cross-platform, second platform app development solutions with proper QA and support services."
   },
   {
     "id": 3,
-    "image":"/images/service.jpg",
+    "imagePath":"/images/service2.webp",
     "title": "Support & Maintenance",
     "content": "We know the difference between success and excellence which is why we only provide professional work. To ensure credibility, we offer QA & testing as a separate service."
   }

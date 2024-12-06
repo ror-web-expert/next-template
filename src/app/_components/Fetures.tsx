@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import Image from "next/image";
-import fetures from "../images/fetures.jpg";
+// import fetures from "../images/fetures.jpg";
 
 function Fetures() {
   return (
@@ -15,7 +15,7 @@ function Fetures() {
         <div className="flox">
         <div className="flexes">
         <div className="fetures-img">
-          <Image src={fetures} alt="" />
+          <Image src="/images/fetures.jpg" alt="" width={300} height={0}/>
         </div>
         <div className="fetures-head">
             <h5>Idea & Analysis Gathering</h5>
@@ -24,7 +24,7 @@ function Fetures() {
       </div>
       <div className="flexes scnd-flx">
         <div className="fetures-img">
-          <Image src={fetures} alt="" />
+          <Image src="/images/fetures.jpg" alt="" width={300} height={0}/>
         </div>
         <div className="fetures-head">
             <h5>Design & Developing</h5>
@@ -33,7 +33,7 @@ function Fetures() {
       </div>
       <div className="flexes">
         <div className="fetures-img">
-          <Image src={fetures} alt="" />
+          <Image src="/images/fetures.jpg" alt="" width={300} height={0}/>
         </div>
         <div className="fetures-head">
             <h5>Testing & Launching</h5>

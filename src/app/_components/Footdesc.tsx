@@ -16,19 +16,19 @@ function Footdesc() {
           </a>
         </div>
         <div className="foot-mail">
-          <h4>+91 987-654-3210</h4>
-          <h5>info@example.com</h5>
+          <h5>+91 987-654-3210</h5>
+          <h6>info@example.com</h6>
         </div>
         <div className="foot-adress">
-          <h4>1247/Plot No. 39, 15th Phase, Colony.</h4>
-          <h5>Kkatpally, Hyderabad</h5>
+          <h5>1247/Plot No. 39, 15th Phase, Colony.</h5>
+          <h6>Kkatpally, Hyderabad</h6>
         </div>
       </div>
       <hr />
 
       <div className="footer-lower">
         <div className="foot-about">
-          <h2>ABOUT US</h2>
+          <h4>ABOUT US</h4>
           <p>
             We are a forward-thinking software company dedicated to delivering
             innovative solutions that drive success. With a passion for
@@ -37,7 +37,7 @@ function Footdesc() {
           </p>
         </div>
         <div className="foot-links">
-          <h3>OUR LINKS</h3>
+          <h4>OUR LINKS</h4>
           <ul>
             <li>
               <Link href="/">Home</Link>
@@ -57,7 +57,7 @@ function Footdesc() {
           </ul>
         </div>
         <div className="foot-links">
-          <h3>OUR SERVICES</h3>
+          <h4>OUR SERVICES</h4>
           <ul>
             <li>
               <Link href="/">Strategy & Research</Link>
@@ -77,7 +77,7 @@ function Footdesc() {
           </ul>
         </div>
         <div className="foot-links">
-          <h3>OTHER LINKS</h3>
+          <h4>OTHER LINKS</h4>
           <ul>
             <li>
               <Link href="/">FAQ</Link>

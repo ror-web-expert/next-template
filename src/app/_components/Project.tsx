@@ -1,13 +1,13 @@
 // import Link from "next/link";
 "use client";
 import Projectbox from "./Projectbox";
-import office1 from "../images/office1.webp";
-import office2 from "../images/office2.webp";
-import office3 from "../images/office3.webp";
-import office4 from "../images/office4.jpg";
-import office5 from "../images/office5.png";
-import office7 from "../images/office7.webp";
-import office8 from "../images/office8.webp";
+// import office1 from "../images/office1.webp";
+// import office2 from "../images/office2.webp";
+// import office3 from "../images/office3.webp";
+// import office4 from "../images/office4.jpg";
+// import office5 from "../images/office5.png";
+// import office7 from "../images/office7.webp";
+// import office8 from "../images/office8.webp";
 import { SetStateAction, useState } from "react";
 
 function Project() {
@@ -54,14 +54,14 @@ function Project() {
       </div>
 
       <div className="project-box">
-        <Projectbox image={office1} />
-        <Projectbox image={office2} />
-        <Projectbox image={office3} />
-        <Projectbox image={office4} />
-        <Projectbox image={office5} />
-        <Projectbox image={office8} />
-        <Projectbox image={office7} />
-        <Projectbox image={office2} />
+        <Projectbox image="/images/office1.webp" />
+        <Projectbox image="/images/office2.webp" />
+        <Projectbox image="/images/office3.webp" />
+        <Projectbox image="/images/office4.jpg" />
+        <Projectbox image="/images/office5.png" />
+        <Projectbox image="/images/office8.webp" />
+        <Projectbox image="/images/office7.webp"/>
+        <Projectbox image="/images/office2.webp" />
       </div>
     </div>
   );

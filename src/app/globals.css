@@ -26,6 +26,7 @@ body {
     top: 0; 
     z-index: 1000;
     width: 100%; 
+    height: 100px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 .nav-header.scrolled{
@@ -42,7 +43,7 @@ body {
 }
 .nav-ul ul li{
   padding: 12px;
-	height:40px;
+	/* height:40px; */
 	margin: 3px;
 	font-size: larger;
 	font-weight: 500;
@@ -50,7 +51,7 @@ body {
 .nav-header a span{
   color: rgb(105, 105, 231);
   font-weight: 800;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .nav-header a{
   text-decoration: none;
@@ -59,7 +60,7 @@ body {
   background-color: rgb(105, 105, 231);
   color: white;
   padding: 15px 25px;
-  margin-top: 10px;
+  margin-top: -5px;
   border-radius: 30px;
   transition-property: all;
   transition-duration: 0.3s;
@@ -120,7 +121,7 @@ body {
 }
 .service-heading{
   text-align: center;
-  margin-top: 80px;
+  margin-top: 120px;
 }
 .service-heading h3{
   color: gray;
@@ -130,25 +131,28 @@ body {
   height: 80px;
 }
 .service-img{
-  width: 220px;
-  margin-left: 40px;
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+}
+.service-title{
+  margin-top: 50px;
+  text-align: center;
+  width: 300px;
 }
 .service-title h4{
   font-weight: 700;
   height: 40px;
   margin-bottom: 10px;
-  text-align: center;
-  width: 300px;
 }
 .service-title p{
   color: gray;
-  text-align: center;
-  width: 300px;
 }
 .service-box{
   display: flex;
   justify-content: center;
   gap: 120px;
+  margin-top: 50px;
 }
 .aboutus h4{
   color: gray;
@@ -377,8 +381,6 @@ body {
   transition-duration: 0.3s;
 }
 .blogbox-counter:hover{
-  width: 380px;
-  height: 430px;
   margin-top: -20px;
 }
 .blog-head h4{
@@ -444,7 +446,7 @@ body {
   height: 55px;
   width: 170px;
   padding: 2px;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
   border-radius: 30px;
   transition-property: all;
@@ -515,18 +517,18 @@ body {
 .foot-adress{
   margin-top: 100px;
 }
-.foot-mail h4{
+.foot-mail h5{
   font-weight: bold;
   color: #fff;
 }
-.foot-mail h5{
-  color: #b4b2b2;
-}
-.foot-adress h4{
-  font-weight: bold;
+.foot-mail h6{
   color: #b4b2b2;
 }
 .foot-adress h5{
+  font-weight: bold;
+  color: #b4b2b2;
+}
+.foot-adress h6{
   color: #b4b2b2;
 }
 .foot-1st{
@@ -541,7 +543,7 @@ body {
 .foot-about{
   width: 350px;
 }
-.foot-about h2{
+.foot-about h4{
   font-weight: 900;
   color: #fff;
 }
@@ -552,6 +554,7 @@ body {
 }
 .foot-links ul{
   margin-top: 30px;
+  margin-left: -30px;
 }
 .foot-links ul a{
   text-decoration: none;
@@ -560,8 +563,8 @@ body {
   transition-property: all;
   transition-duration: 0.3s;
 }
-.foot-links h3{
-  font-weight: 900;
+.foot-links h4{
+  font-weight: 700;
   color: #fff;
 }
 .foot-links ul li{
@@ -570,12 +573,11 @@ body {
 .foot-links ul a:hover{
   color: black;
   font-weight: bold;
-  font-size: large;
 }
 .footer-lower{
   display: flex;
   justify-content: center;
-  gap: 90px;
+  gap: 120px;
   margin-top: 40px;
 }
 .low-footer{
@@ -590,6 +592,8 @@ body {
 .low-footer h6 span{
   color: #fff;
 }
+
+
 .pricing-container {
   display: flex;
   justify-content: center;
@@ -646,7 +650,7 @@ font-weight: 900;
   justify-content: center;
   position: relative;
   margin: 20px auto;
-  max-width: 1100px;
+  max-width: 1200px;
   overflow: hidden;
 }
 
@@ -688,9 +692,9 @@ font-weight: 900;
 }
 
 .carousel-button.left {
-  left: -30px;
+  left: 10px;
 }
 
 .carousel-button.right {
-  right: -30px;
+  right: 10px;
 }

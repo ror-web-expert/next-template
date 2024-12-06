@@ -3,7 +3,7 @@ import Servicesbox from "./Servicesbox"
 
 function Services() {
   return (
-    <div>
+    <div id="service">
         <div className="service-heading">
             <h3>SERVICES</h3>
             <h1>PROVIDE AWESOME SERVICE</h1>

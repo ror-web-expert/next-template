@@ -9,7 +9,7 @@ const Pricing = () => {
   };
 
   return (
-    <div>
+    <div id="plans">
         <div className="price-heading">
         <h3>PRICING</h3>
         <h1>CHOOSE PLAN</h1>

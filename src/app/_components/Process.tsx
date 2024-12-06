@@ -2,12 +2,14 @@ import Processbox from "./Processbox";
 
 function Process() {
   return (
-    <div className="process">
+    <div id="process">
+      <div className="process">
         <div className="p-container">
-            <Processbox/>
+          <Processbox />
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Process;

@@ -1,16 +1,16 @@
 "use client";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import { useState } from "react";
 
 type TeamMember = {
-  image: StaticImageData; // Use this for imported images
+  image: string; // Use this for imported images
   heading: string;
   title: string;
 };
 
 function Teambox({ teamData }: { teamData: TeamMember[] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const visibleCount = 3; // Number of images to display at a time
+  const visibleCount = 3; 
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % teamData.length);
@@ -42,7 +42,7 @@ function Teambox({ teamData }: { teamData: TeamMember[] }) {
               src={item.image}
               alt={item.heading}
               width={200}
-              height={200}
+              height={0}
             />
             <h3>{item.heading}</h3>
             <h6>{item.title}</h6>

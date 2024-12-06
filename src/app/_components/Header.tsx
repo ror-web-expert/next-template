@@ -2,7 +2,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import Image from "next/image";
-import meeting from "../images/meeting.jpg";
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -42,7 +41,7 @@ const Header = () => {
           <button className="btn-head">LEARN MORE </button>
         </div>
         <div className="header-image">
-          <Image src={meeting} alt="" />
+          <Image src="/images/meeting.jpg" alt="" width={450} height={0}/>
         </div>
       </div>
     </div>

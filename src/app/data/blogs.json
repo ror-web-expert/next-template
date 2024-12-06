@@ -1,16 +1,19 @@
 [
     {
         "id":1,
+        "image":"/images/Untitled-design-16.webp",
         "title":"How To Develop WordPress Plugin?",
         "content":"Developing WordPress plugins is a rewarding experience for those seeking to add custom functionality to ..."
     },
     {
         "id":2,
+        "image":"/images/Untitled-design-18.webp",
         "title":"How To Get Started With WordPress Development?",
         "content":"If you’re looking to get started with WordPress development, you’re in luck. Clearly, WordPress is ..."
     },
     {
         "id":3,
+        "image":"/images/PHP-2.webp",
         "title":"Why PHP Is Getting More Stronger?",
         "content":"PHP is a popular scripting language used for web development. And it is experiencing a ..."
     }

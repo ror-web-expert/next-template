@@ -5,7 +5,7 @@ function Projectbox(props:any) {
   return (
     <div className="project-container">
         <div className="project-img">
-            <Image src={props.image} alt="" />
+            <Image src={props.image} alt="" width={300} height={0}/>
         </div>
     </div>
   )
