@@ -1,20 +1,20 @@
-/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
-import Image from "next/image";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
-const Header = () => {
+const Menu = () => {
   const [currentWord, setCurrentWord] = useState("BUSINESS");
   const [index, setIndex] = useState(0);
   const words = [
     "BUSINESS",
-    "WEB DESIGN",
     "PROJECTS",
+    "WEB DESIGN",
     "WEB DEVELOPMENT",
     "INNOVATION",
     "APP DEVELOPMENT",
   ];
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentWord(words[index]);
@@ -22,26 +22,32 @@ const Header = () => {
     }, 1000);
     return () => clearInterval(interval);
   }, [index]);
+
   return (
-    <div>
-      <div className="container flex justify-around items items-center mt-14 py-2 px-10 gap-10">
-        <div className="header" style={{ width: 600 }}>
-          <h3>WE CREATE IDEAS</h3>
-          <h1>
+    <div className="container py-5">
+      {/* Flexbox Row */}
+      <div className="row align-items-center">
+        {/* Text Section */}
+        <div className="col-md-6">
+          <h3 className="text-muted ">WE CREATE IDEAS</h3>
+          <h1 className="fw-bolder">
             HOW CAN WE HELP YOU IN{" "}
-            <span className="dynamic-word">{currentWord}</span>
+            <span className="text-warning">{currentWord}</span>
           </h1>
-          <p>
+          <p className="text-muted">
             A unified platform that transcends auto and asset retail and
             finance, all powered by Artificial Intelligence.
           </p>
-          <button className="btn-head">LEARN MORE </button>
+          <button className="btn btn-lg" style={{backgroundColor:"#6969E7", color:"#fff", border:"none", borderRadius:"32px", padding:"15px 25px"}}>LEARN MORE</button>
         </div>
-        <div className="header-image">
+
+        {/* Image Section */}
+        <div className="col-md-6">
           <Image src="/images/meeting.jpg" alt="" width={450} height={0} />
         </div>
       </div>
     </div>
   );
 };
-export default Header;
+
+export default Menu;

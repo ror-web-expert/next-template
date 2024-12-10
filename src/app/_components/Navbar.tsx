@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-
   const handleScroll = () => {
     if (window.scrollY > 50) {
       setIsScrolled(true);
@@ -13,7 +12,6 @@ const Navbar = () => {
       setIsScrolled(false);
     }
   };
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {

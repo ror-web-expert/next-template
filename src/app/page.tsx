@@ -8,6 +8,7 @@ import Footerhead from "./_components/Footerhead";
 import Footerlow from "./_components/Footerlow";
 import Header from "./_components/Header";
 import Logo from "./_components/Logo";
+import Menu from "./_components/Menu";
 import Navbar from "./_components/Navbar";
 import Newsletter from "./_components/Newsletter";
 import Pricing from "./_components/Pricing";
@@ -21,6 +22,7 @@ export default function Home() {
     <div>
       <Navbar/>
       <Header/>
+      <Menu />
       <Logo />
       <Services/>
       <Aboutus />
